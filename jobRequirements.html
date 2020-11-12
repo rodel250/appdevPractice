@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Interview BOT</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="jobRequirements.css">
+
+    <!-- Font Awesome JS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="row">
+                	<div class="col-sm-4">
+                        <img src="logo.png" width="100%">
+                    </div>
+
+                    <!-- <strong style="color: #800"><img src="logo.png" width="100%" height="100%"></strong> -->
+                </div>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                	<a href="#">
+                        <i class="fas fa-home"></i>
+                        Home</a>
+                </li>
+                <li >
+                    <a href="#" id="btnJobOffer">
+                        <i class="fas fa-search"></i>
+                        Job Offers
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-info-circle"></i>
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-envelope"></i>
+                        Contact Us
+                    </a>
+                </li>
+                <li>
+		        	<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-user-circle"></i> Account</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <!-- <a href="#"><i class="fa fa-cog"></i> Settings</a> -->
+                            <a href="#"> Settings</a>
+                        </li>
+                        <li>
+                            <!-- <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a> -->
+                            <a href="#"> Logout</a>
+                        </li>
+                    </ul>
+		        </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+        	
+        </div>
+        <div id="jobReqModal" class="jobModal">
+            <div class="jobModal_content">
+                <span class="close">&times</span>
+                <div class="row">
+                    <div class="column">
+                        <h3>Job Requirements</h3><br>
+                        <li>Application Letter</li>
+                        <li>Accomplished Civil Service Commission Form 212 (CSC Form 212 Revised 2017)</li>
+                        <li>Certified Photocopy of your LET Rating</li>
+                        <li>Photocopy of your PRC Licence</li>
+                        <li>Certified Photocopy of your Transcript of Records</li>
+                        <li>Photocopy of the Certificate(s) of Specialized Training(s) you attended</li>
+                        <li>Certification of Employment/ Service Records/ Performance Rating or Clearances</li>
+                        <li>Original copy of Certificate of Residency or Voter’s ID or Voter’s Affidavit</li>
+                        <li>PSA/NSO Birth Certificate</li>
+                        <li>Barangay Clearance, Police Clearance, and NBI Clearance</li>
+                        <li>Omnibus Certification of authenticity and Veracity of all documents submitted, signed by the applicant</li>
+                        <li>For Senior High School Applicants</li>
+                        <li>For TVL Teacher-Applicants</li>
+                    </div>
+                    <div class="column2">
+                        <h3>Attach Your Requirements Here</h3><br>
+                        <form id="myForm" method="post">
+                            <div class="field" align="left">
+                                <h5>Upload Files Here</h5>
+                                <input type="file" id="files" name="files[]" multiple/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+
+    <!-- Job Requirements Modal -->
+    <script type="text/javascript">
+        var modal = document.getElementById("jobReqModal");
+        var btn = document.getElementById("btnJobOffer");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function(){
+            modal.style.display = "block";
+        }
+        span.onclick = function(){
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <!-- Script for upload files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            if (window.File && window.FileList && window.FileReader) {
+                $("#files").on("change", function(e) {
+                    var files = e.target.files, filesLength = files.length;
+                    for (var i = 0; i < filesLength; i++) {
+                        var f = files[i]
+                        var fileReader = new FileReader();
+                        fileReader.onload = (function(e) {
+                              var file = e.target;
+                              $("<span class=\"pip\">" +
+                                "<img class=\"imageThumb\" src=\"" + e.target.result + "\" title=\"" + file.name + "\"/>" +
+                                "<br/><span class=\"remove\">Remove image</span>" +
+                                "</span>").insertAfter("#files");
+                              $(".remove").click(function(){
+                                $(this).parent(".pip").remove();
+                              });
+                          });
+                        fileReader.readAsDataURL(f);
+                    }
+                });
+            } else {
+                alert("Your browser doesn't support to File API")
+            }
+        });
+</script>
+</body>
+
+</html>
