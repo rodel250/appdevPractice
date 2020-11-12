@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("white_bg.jpg");
+    background-size: cover;
+   
+}
+.register {
+	width: 55%;
+	overflow: hidden;
+	margin: auto;
+	padding: 50px;
+}
+h6 {
+	text-align: center;
+	position: absolute;
+	top: 90px;
+	left: 647px;
+}
+h1 {
+	text-align: center;
+	position: absolute;
+	top: 110px;
+	left: 680px;
+}
+.logo {
+	position: relative;
+	margin:auto;
+
+}
+
+#fullName {
+	border-radius: 15px;
+	width: 350px;
+	text-align: center;
+	padding-left: 10px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position: relative;
+	
+}
+#fullName:hover {
+	background-color: #DAA520;
+}
+
+#emailAdd {
+	border-radius: 15px;
+	width: 350px;
+	text-align: center;
+	padding-left: 10px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position: relative;
+	
+}
+#emailAdd:hover {
+	background-color: #DAA520;
+}
+#pass {
+	border-radius: 15px;
+	width: 350px;
+	text-align: center;
+	padding-left: 10px;
+	border-left-width: 3px;
+	border-right-width: 3px;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	position: relative;
+	
+}
+#pass:hover{
+	background-color: #DAA520;
+}
+.btn_register {
+	border-radius: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width:150px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	background-color: #ffcc00;
+	position: relative;
+	font-weight: bold;
+	color: black;
+}
+.btn_register:hover{
+	background-color: #8B0000;
+}
+
+input {
+	text-align: center;
+}
