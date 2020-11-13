@@ -16,10 +16,6 @@ a:focus {
     transition: all 0.3s;
 }
 
-hr{
-    padding: 0px;
-    margin: 0px;   
-
 }
 
 i,
@@ -38,6 +34,8 @@ hr {
     border-color: white; 
     width: 100%;  
     float: center;
+    padding: 0px;
+    margin: 0px;  
     margin-top: 20px;
 }
 
