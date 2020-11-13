@@ -16,10 +16,6 @@ a:focus {
     transition: all 0.3s;
 }
 
-hr{
-    padding: 0px;
-    margin: 0px;   
-
 }
 
 i,
@@ -36,10 +32,32 @@ h1 {
 
 hr {
     border-color: white; 
-    width: 80%;  
-    float: left;
+    width: 100%;  
+    float: center;
+    padding: 0px;
+    margin: 0px;  
+    margin-top: 20px;
 }
 
+#name{
+    border-radius: 15px;
+}
+
+#email{
+    border-radius: 15px;
+}
+
+#subject{
+    border-radius: 15px;
+}
+
+#message{
+    border-radius: 15px 15px 5px 15px;
+}
+
+#submit{
+    border-radius: 15px;
+}
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
