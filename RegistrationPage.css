@@ -40,9 +40,6 @@ h1 {
 	position: relative;
 	
 }
-#fullName:hover {
-	background-color: #DAA520;
-}
 
 #emailAdd {
 	border-radius: 15px;
@@ -56,9 +53,7 @@ h1 {
 	position: relative;
 	
 }
-#emailAdd:hover {
-	background-color: #DAA520;
-}
+
 #pass {
 	border-radius: 15px;
 	width: 350px;
@@ -71,9 +66,7 @@ h1 {
 	position: relative;
 	
 }
-#pass:hover{
-	background-color: #DAA520;
-}
+
 .btn_register {
 	border-radius: 15px;
 	padding-top: 5px;
@@ -88,10 +81,20 @@ h1 {
 	font-weight: bold;
 	color: black;
 }
-.btn_register:hover{
-	background-color: #8B0000;
+
+input[type=button] {
+	cursor: pointer;
 }
 
 input {
 	text-align: center;
+}
+
+input:hover {
+	background-color: lightgrey;
+}
+
+a,
+a:hover{
+	color: #800;
 }
