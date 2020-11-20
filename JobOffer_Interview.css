@@ -9,6 +9,7 @@ body{
 .jobInteview{
     position: relative;
     margin: auto;
+    
 }
 .imgJob {
     width: 70px; 
@@ -16,6 +17,11 @@ body{
     border-radius: 50%;
     position: relative;
     left: 30%;
+}
+.job-form{
+    width: 100%;
+    height: inherit;
+    background-color: transparent;
 }
 #btn-mic{
     cursor: pointer;
@@ -42,11 +48,12 @@ body{
     top:28%;
 }
 
-#job-form{
+.bckg_head{
     width: 100%;
     overflow: hidden;
     margin: auto;
     padding: 10px;
+    background-color: #FFCC00;
 }
 #job-text{
     font-weight: bold;
@@ -61,21 +68,12 @@ body{
     top: 8%;
     font-size: 16px;
 }
-
-#label{
-    background-color: #FFCC00;
-    
-}
-#question{
+.question{
+    text-align: center;
     font-family: Arial;
     font-size: 16px;
     position: relative;
-    left: 108%;
-}
-
-#line{
-    position: relative;
-    left:7%;
+    left: 1%;
 }
 #time{
     font-size: 11px;
@@ -98,7 +96,8 @@ body{
     position: relative;
     left: 25%;
 }
-#foot{
+.foot{
+    background-color: #A9A9A9;
     width: 100%;
     position: absolute;
     top: 88%;
@@ -133,7 +132,8 @@ body{
     left: 15%;
 }
 #id-time{
+    font-size: 15px;
     position: absolute;
     top: 24%;
-    left: 2%;
+    left: 3%;
 }
