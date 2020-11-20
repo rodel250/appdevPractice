@@ -101,7 +101,7 @@ body{
 }
 #message{
     border-radius: 0px;
-    width: 1250px;
+    width: 980px;
     text-align: center;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -130,7 +130,7 @@ body{
 }
 #message2{
     border-radius: 0px;
-    width: 1250px;
+    width: 980px;
     text-align: center;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -146,7 +146,7 @@ body{
 }
 #message3{
     border-radius: 0px;
-    width: 1250px;
+    width: 980px;
     text-align: center;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -163,7 +163,7 @@ body{
 }
 #message4{
     border-radius: 0px;
-    width: 1250px;
+    width: 980px;
     text-align: center;
     border-left-width: 0px;
     border-right-width: 0px;
@@ -183,7 +183,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    left: 95%;
+    left: 90%;
 }
 #imgDelete{
     width: 40px;
@@ -191,7 +191,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    left: 96%;
+    left: 91%;
 }
 #function-form{
     width: 4%;
@@ -210,7 +210,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    left: 35%;
+    left: 16%;
 }
 #imgForward{
     width: 40px;
@@ -218,7 +218,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    left: 35%;
+    left: 16%;
 }
 #imgTT{
     width: 40px;
@@ -226,7 +226,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    left: 35%;
+    left: 16%;
 }
 #imgGallery{
     width: 40px;
@@ -234,5 +234,5 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    left: 35%;
+    left: 16%;
 }

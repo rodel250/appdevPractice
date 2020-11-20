@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     
 }
+
 .jobInteview{
     position: relative;
     margin: auto;
@@ -17,6 +18,7 @@ body{
     left: 30%;
 }
 #btn-mic{
+    cursor: pointer;
     border-radius: 50px;
     width: 60px;
     height: 45px;
@@ -32,6 +34,7 @@ body{
     background-color: #8B0000;
 }
 #mic-logo{
+    cursor: pointer;
     width: 43px;
     height:35px;
     position: absolute;
@@ -80,6 +83,7 @@ body{
     color: black;
 }
 #btnSend{
+    cursor: pointer;
     width: 120px;
     border-radius: 18px;
     border-right-width: 0px;
@@ -122,6 +126,7 @@ body{
 
 }
 #send-logo{
+    cursor: pointer;
     width: 35px;
     height: 23px;
     position: relative;
